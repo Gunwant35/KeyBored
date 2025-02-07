@@ -1,14 +1,14 @@
-import './App.css';
 import React from 'react';
-import Navbar from './componenets/Navbar'
-import Body from './componenets/Body';
+import './App.css';
 import Footer from './componenets/Footer';
+import Header from './componenets/Header';
+import SelectLevel from './componenets/SelectLevel';
 
 function App() {
   return (
     <div style={{ padding:"20px"}}>
-      <Navbar />
-      <Body />
+      <Header />
+      <SelectLevel />
       <Footer />
     </div>
   );
